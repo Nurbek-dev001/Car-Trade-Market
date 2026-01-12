@@ -73,7 +73,7 @@ const Navbar = () => {
 
           <DirectionsCar sx={{ mr: 2 }} />
           <Typography variant="h6" component={Link} to="/" sx={{ flexGrow: 1, textDecoration: 'none', color: 'inherit' }}>
-            АСТЕР АВТО
+            Future Car
           </Typography>
 
           <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 2 }}>
@@ -232,5 +232,6 @@ const Navbar = () => {
     </>
   );
 };
+
 
 export default Navbar;
